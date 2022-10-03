@@ -1,0 +1,255 @@
+
+/* AWAL NAVBAR */
+.header {
+  padding: 15px;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  position: fixed;
+  background-color: white;
+}
+.logo {
+  width: 151px;
+  display: flex;
+  align-items: center;
+}
+.logo-sidebar img{
+  width: 40px;
+  height: 10px;
+}
+.menu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu a {
+  display: block;
+  margin: 16px;
+  text-decoration: none;
+  color: #000000;
+}
+.burger-icon {
+  display: none;
+  cursor: pointer;
+}
+.top-sidebar {
+  display: none;
+}
+.sidebar {
+  flex: 1;
+}
+.overlay-bg {
+  display: none;
+}
+/* AKHIR NAVBAR */
+/* AWAL HERO-SECTION */
+.hero-section{
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 90px;
+  color: #21243d;
+}
+
+.hero-text{
+  padding-top: 50px;
+  font-family: 'Heebo', sans-serif;
+}
+.hero-thumbnail{
+  padding-top: 50px;
+}
+.hero-thumbnail img{
+  width: 60%;
+  margin: 10px;
+}
+.hero-text h1{
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+.hero-text p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn{
+  border-radius: 2px;
+  background-color: #ff6464;
+  border: 0;
+}
+.bagian-hero{
+  display: flex;
+ 
+}
+/* AKHIR HERO-SECTION */
+/* AWAL WORKS SECTION */
+.main{
+  background-color: #21243d;
+  padding-bottom: 40px;
+  font-family: 'Heebo', sans-serif;
+}
+.judul h3{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #FFF;
+  padding-bottom: 10px;
+}
+.main-kotak{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.main-kotak img{
+  padding-bottom: 10px;
+  width: 100%;
+}.main-kotak h3{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 27px;
+  padding-bottom: 10px;
+  margin-right: 3px;
+}
+.main-kotak p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.main-kotak a{
+  background-color: #ff6464;
+  border-radius: 2px;
+  margin: 10px 0;
+}
+/* AKHIR WORK SECTION */
+/* AWAL FOOTER */
+.footer{
+  padding: 50px 0;
+  font-family: 'Heebo', sans-serif;
+}
+.media-section{
+  display: flex;
+  justify-content: center;
+}
+.media-section img{
+  margin: 10px;
+}
+.copyright{
+  text-align: center;
+  margin-top: 5px;
+}
+/* AKHIR FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AWAL BREAKPOINT RESPONSIVE NAVBAR */
+  @media (max-width:991px) {
+    .burger-icon {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .burger-icon img{
+      width: 40px;
+    }
+    .sidebar {
+      position: absolute;
+      background: #ffffff;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      width: 180px;
+      top: 0;
+      right: -180px;
+      height: 100vh;
+      padding-top: 32px;
+      padding-right: 24px;
+      padding-left: 16px;
+      z-index: 1;
+      transition: 0.3s;
+    }
+    .sidebar.menu-active{
+      right: 0;
+    }
+    .overlay-bg{
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: block;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+      z-index: 1;
+    }
+    .overlay-bg.menu-active{
+      visibility: visible;
+      opacity: 1;
+    }
+    .logo{
+      display: none;
+    }
+    .top-sidebar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .top-sidebar h3{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .menu{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .menu a{
+      margin-left: 0;
+    }
+    .close-icon{
+      cursor: pointer;
+    }
+    .bagian-hero{
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    .hero-thumbnail img{
+      width: 50%;
+      margin: 0 10px;
+    }
+    .hero-section{
+      padding-top: 30px;
+    }
+    .hero-text h1{
+      font-size: 32px;
+    }
+    .judul{
+      text-align: center;
+    }
+  }
+  
+
+/* AKHIR BREAKPOINT RESPONSIVE NAVBAR */
+
