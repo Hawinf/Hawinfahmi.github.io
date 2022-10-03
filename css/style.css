@@ -28,6 +28,7 @@
   margin: 16px;
   text-decoration: none;
   color: #000000;
+  font-family: 'Heebo', sans-serif;
 }
 .burger-icon {
   display: none;
@@ -137,6 +138,7 @@
 .copyright{
   text-align: center;
   margin-top: 5px;
+  font-family: 'Heebo', sans-serif;
 }
 /* AKHIR FOOTER */
 
