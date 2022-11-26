@@ -215,7 +215,7 @@
       opacity: 1;
     }
     .logo{
-      display: none;
+      display: block;
     }
     .top-sidebar{
       display: flex;
