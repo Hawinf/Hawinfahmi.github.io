@@ -178,7 +178,8 @@
       align-items: center;
     }
     .burger-icon img{
-      width: 40px;
+      width: 30px;
+      height: 14px
     }
     .sidebar {
       position: absolute;
@@ -220,7 +221,7 @@
     }
     .logo-home {
         margin-top: 5px
-        width: 100px;
+        width: 70px;
         height: 25px;
     }
     .top-sidebar{
