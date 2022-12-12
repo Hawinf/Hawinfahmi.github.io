@@ -219,8 +219,9 @@
      
     }
     .logo-home {
+        margin-top: 5px
         width: 100px;
-        height: 20px;
+        height: 25px;
     }
     .top-sidebar{
       display: flex;
