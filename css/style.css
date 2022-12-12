@@ -216,6 +216,7 @@
     }
     .logo{
       display : block;
+      width: 110px
     }
     .top-sidebar{
       display: flex;
